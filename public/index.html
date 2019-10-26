@@ -53,7 +53,24 @@
 
 
       <!-- Initialize Firebase -->
-      <script src="/__/firebase/init.js"></script>
+      <!--script src="/__/firebase/init.js"></script-->
+
+      <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyB6TQoNLxu17mVgtr_bYZXpJfQJPzGBfUQ",
+          authDomain: "voting-thing-ed275.firebaseapp.com",
+          databaseURL: "https://voting-thing-ed275.firebaseio.com",
+          projectId: "voting-thing-ed275",
+          storageBucket: "voting-thing-ed275.appspot.com",
+          messagingSenderId: "50866036793",
+          appId: "1:50866036793:web:5dee8c987a0f5678a5ede8",
+          measurementId: "G-KGXBFYSQVD"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+      </script>
       
 </body>
   </body>
